@@ -90,7 +90,7 @@ keymap {
 
                          bindings = <
    &kp F12 &kp F13 &kp F14 &kp F15 &kp F16 &trans &trans &trans &trans &trans
-   &kp F22 &kp F21 &kp F20 &kp F19 &kp F18 &kp F17 &kp LA(F11 2) &kp LA(F13) &kp LA(F14) &kp LA(F15)
+   &kp F22 &kp F21 &kp F20 &kp F19 &kp F18 &kp F17 &kp LA(F12) &kp LA(F13) &kp LA(F14) &kp LA(F15)
    &kp LA(F22) &kp LA(F21) &kp LA(F20) &kp LA(F19) &kp LA(F18) &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans &trans
                          >;
