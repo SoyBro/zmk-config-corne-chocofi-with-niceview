@@ -12,6 +12,7 @@
 #define ARROW   1
 #define NUM  2
 #define SYM 3
+#define MACRO 4
 
  / {
    chosen {
@@ -49,7 +50,7 @@ keymap {
     &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U  &hm LPAR I &hm RPAR O   &kp P
     &hm LCTRL A &hm LALT S &hm LSHIFT D &lt ARROW F &hm UNDER G &hm MINUS H &hm RCTRL J &hm RSHIFT K &hm RALT L &hm SEMI SQT
     &kp Z &kp X &kp C &kp V &kp B  &kp N &kp M &kp COMMA &kp DOT &hm QMARK  FSLH
-       &kp DEL &lt NUM BACKSPACE &hm LGUI ESC  &lt LC(LS(LALT)) TAB &lt SYM SPACE &kp RET
+       &kp DEL &lt NUM BACKSPACE &hm LGUI ESC  &lt MACRO TAB &lt SYM SPACE &kp RET
 
                          >;
                  };
@@ -84,5 +85,16 @@ keymap {
                 &trans &trans &trans &trans &trans &trans &trans
                          >;
                  };
+                  nav_layer {
+                         label = "MACRO";
+
+                         bindings = <
+   &kp F12 &kp F13 &kp F14 &kp F15 &kp F16 &trans &trans &trans &trans &trans
+   &kp F22 &kp F21 &kp F20 &kp F19 &kp F18 &kp F17 &kp LA(F12) &kp LA(F13) &kp LA(F14) &kp LA(F15)
+   &kp LA(F22) &kp LA(F21) &kp LA(F20) &kp LA(F19) &kp LA(F18) &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans
+                         >;
+                 };
+
          };
  };
