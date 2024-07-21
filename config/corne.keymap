@@ -49,7 +49,7 @@ keymap {
     &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U  &hm LPAR I &hm RPAR O   &kp P
     &hm LCTRL A &hm LALT S &hm LSHIFT D &lt ARROW F &hm UNDER G &hm MINUS H &hm RCTRL J &hm RSHIFT K &hm RALT L &hm SEMI SQT
     &kp Z &kp X &kp C &kp V &kp B  &kp N &kp M &kp COMMA &kp DOT &hm QMARK  FSLH
-       &kp DEL &lt NUM BACKSPACE &hm LGUI ESC  &lt LC(LA(LSHIFT)) TAB &lt SYM SPACE &kp RET
+       &kp DEL &lt NUM BACKSPACE &hm LGUI ESC  &lt LC(LA(LS) TAB &lt SYM SPACE &kp RET
 
                          >;
                  };
