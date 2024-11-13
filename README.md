@@ -1,4 +1,5 @@
-# Corne-ish Zen V2 Custom Configuration
+### Chocofi with nice!nanos
+### From Corne-ish Zen config
 
 ## Resources
 
